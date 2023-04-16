@@ -11,3 +11,25 @@ p {
     color: purple;
     font-size: 40px;
 }
+
+/*  css selectors  */
+
+.color-blue.fw-bold {
+
+    color: blue;
+    font-weight: bold;
+
+}
+
+ul> li:first-child {
+    color: green;
+}
+
+ul> li:last-child {
+    color: pink;
+}
+
+/* we can use even odd rather than numbers, or we can use n variable */
+ul> li:nth-child(2) {
+    color: red;
+}
